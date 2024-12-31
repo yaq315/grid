@@ -1,0 +1,322 @@
+
+
+/*task1*/
+.task1{
+    background-color:white;
+ 
+    display: grid;
+    width: 500px;
+    height: 100px;
+    grid-template-columns:repeat(3,100px) ;
+    gap: 20px; 
+}
+.task1 div{
+    background-color: blue;
+}
+/*task2*/
+.task2{ 
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(3 ,1fr);
+    gap: 20px; 
+}
+/*task3*/
+.task3{
+    width:500px;
+    height: 500px;
+  
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(5,100px);
+    gap:10px
+  
+}
+.task3 div{ border-radius:10px;
+   color: aliceblue;
+font-size: larger;
+text-align:center;
+}
+
+.h{
+    grid-column:1/-1;
+    background-color: yellow;
+}
+.n{
+grid-column: 2/6;background-color: blue;
+
+  
+}
+.a{grid-column:2/6;grid-row:3/5 ;
+  
+   background-color: gray;
+}
+.s{
+grid-row:2/5;background-color: brown;
+}
+
+.f{
+  grid-column: 1/-1;background-color: black;
+} 
+/*task4*/
+.task4{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px; 
+}
+/*task5*/
+.task5{
+    width:500px;
+    height: 500px;
+  
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(3,100px);
+    gap:10px}
+    .task5 div{
+      border-radius: 10px;gap: 20px;
+    }
+    .item1{
+        grid-area: 1/1/3/3;background-color: blue;
+
+    }
+    .item2{
+        grid-area:1/3/1/6 ;background-color: black;
+    }
+    .item3{
+        grid-area:2/3/4/5 ;background-color: aquamarine;
+    }
+.item4{
+background-color: aquamarine;
+}
+.item5{
+grid-area: 3/1/4/3;background-color: blueviolet;
+}
+.item6{
+background-color:pink;
+}
+/*task6*/
+.task6{background-color: blueviolet;
+    width:1000px;
+    height:100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(8,f);
+    grid-template-rows: repeat(4,f);
+    gap:10px
+}
+.task6 div{ background-color: yellow;
+    text-align: center;
+     gap: 20px;   
+}
+.task63{ grid-area:3/1/4/9}
+/*task7*/
+.task7{
+border: solid black;padding:10px;
+}
+.task71{
+    border: solid black;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content:space-evenly;
+    gap: 10px;
+     }
+ 
+.task72{
+    border: solid black;background-color:grey;
+    margin:10px; 
+   }
+ /*task8*/
+ .task8{
+ display: grid;
+ grid-template-columns: repeat(3,auto);
+ gap: 10px;}
+ /*task9*/
+ .task9{
+    width:500px;
+    height: 500px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(5,100px);
+    gap:10px}
+    .task9 div{ 
+      gap:10px;
+    }
+   .task91{
+     grid-area: 1/1/4/4;background-color: brown;opacity:0.75;
+   }
+   .task92{
+      grid-area:2/2/5/5 ;background-color: blue;opacity: 0.75;
+   }
+   .task93{ grid-area:3/3/6/6;background-color:green;opacity:0.75;
+
+   }
+   /*task10*/
+   .task10{
+display: grid;
+justify-items: center;
+justify-content: center;
+align-items: center;
+   }
+
+.card{
+    display: grid;
+
+    border: 1px black solid;
+width: 550px;
+height: 500px;
+
+}
+
+
+
+
+
+   .top{
+  
+    width: 700px;
+    height: 50px;
+    display: grid;
+     grid-template-columns:repeat(2,50px);
+    gap: 10px;
+     }
+
+     .top div{ 
+ height: 50px;width: 200px;
+     }
+     .top1{
+        height:30px;width:30px;
+     }
+     .top2{ 
+        font-size: xx-small;
+     }
+     .paragraph10{
+      
+        height: 100px;width: 500px;
+     }
+     .img10{
+        background-color: brown;height: 200px;width: 500px;
+     }
+     .end{ 
+        width: 500px;
+        height: 50px;
+        display: grid;
+         grid-template-columns:repeat(9,20px);
+         justify-content: space-between;
+       }
+      
+    .end10{
+            height:10px;width:10px;
+         
+         }
+ /*task11*/
+ .car{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 1000px;
+    }
+    
+    .net1{
+    display: grid;
+    }
+    .sub1{
+    background-color: gray;
+   
+    height: 200px;
+    margin: 5px;
+  display: grid;
+   grid-template-columns: repeat(2,1fr);
+  
+    }
+    .sub12{
+    
+    background-color:white;
+    width: 95px;
+    margin: 2px;
+    }
+    
+    .sub25{
+        background-color: white;   
+    margin: 2px;
+    }
+
+    .sub2{
+        background-color: gray;
+       
+        height: 200px;
+      gap: 2px;
+      display: grid;
+       grid-template-rows: 1fr 1fr;
+      
+      
+        }
+    
+    .sub16{
+        background-color:white;
+ 
+    margin: 2px;
+    width: 95px;
+    
+    }
+    /*task12*/
+    .products{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        gap: 10px;
+        width:;
+     }
+     
+     .product{
+         border: 2px solid;
+         width: 200px;
+         height:340px ;
+        border-radius: 10px;
+     }
+     
+     .input{
+         text-align: center;
+         border-radius: 5px;
+         margin-top: 80px;
+     }
+     
+     .img9{
+     
+         text-align: center;
+     
+     }
+     
+     .product1{
+         border: 2px solid;
+         width: 200px;
+         height:340px ;
+        border-radius: 10px;
+     }
+      
+     .product2{
+         border: 2px solid;
+         width: 200px;
+         height:340px ;
+        border-radius: 10px;
+     }
+     
+     .product3{
+         border: 2px solid;
+         width: 200px;
+         height:340px ;
+        border-radius: 10px;
+     }
+     
+     .product4{
+         border: 2px solid;
+         width: 200px;
+         height:340px ;
+        border-radius: 10px;}
+    
+
